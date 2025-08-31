@@ -12,8 +12,6 @@ const data = [
     title: "Company",
     links: [
       {title: "Home", url: "/"},
-      {title: "Services", url: "/services"},
-      {title: "Blog", url: "/blog"},
       {title: "About us", url: "/about"},
       {title: "Contact us", url: "/contact"}
     ]
@@ -27,7 +25,7 @@ const data = [
     ]
   },
   {
-    title: "Social",
+    title: "Social media",
     links: [
       {title: "Facebook", url: "/"},
       {title: "Instagram", url: "/about"},
@@ -35,11 +33,11 @@ const data = [
     ]
   },
   {
-    title: "Social",
+    title: "Contacts",
     links: [
-      {title: "Facebook", url: "/"},
-      {title: "Instagram", url: "/about"},
-      {title: "Twitter", url: "/contact"}
+      {title: "+99368837102", url: "/"},
+      {title: "+99366666666", url: "/contact"},
+      {title: "h.agayev@gmail.com", url: "/about"},
     ]
   }
 ]
@@ -76,7 +74,7 @@ export function Footer() {
           ))}
         </div>
         <div className="py-3">
-          <span className="text-sm text-background/80">Copyright © 2025 Apple Inc. All rights reserved.</span>
+          <span className="text-sm text-background/80">Copyright © 2025 Gerimli Hereket. All rights reserved.</span>
         </div>
       </div>
     </footer>

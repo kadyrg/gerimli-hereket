@@ -18,7 +18,7 @@ export function Shipping() {
               className="relative aspect-7/8 hover:scale-102 rounded-4xl transition-[scale] duration-[0.3s] overflow-hidden"
             >
               <Image src={item.image} width={1000} height={1000} alt={item.title} className='object-cover h-full' />
-              <span style={{ textShadow: "4px 4px 4px rgba(0,0,0,0.2)" }} className='absolute top-0 text-background font-bold text-3xl p-6'>{item.title}</span>
+              <span style={{ textShadow: "4px 4px 4px rgba(0,0,0,0.2)" }} className='absolute top-0 text-background font-semibold text-3xl p-6'>{item.title}</span>
             </div>
           ))}
         </div>

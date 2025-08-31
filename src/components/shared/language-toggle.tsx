@@ -18,7 +18,7 @@ const languages = [
   {title: "English", locale: "en"},
 ]
 
-export function LanguageToggle() {
+export function LanguageToggle({className, ...props}: React.ComponentProps<typeof Button>) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -26,7 +26,7 @@ export function LanguageToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="size-7">
+        <Button variant="ghost" size="icon" className={cn('size-7 transition-opacity duration-300', className)} {...props}>
           <Globe className="h-[1.2rem] w-[1.2rem]" strokeWidth={1.5} />
         </Button>
       </DropdownMenuTrigger>
