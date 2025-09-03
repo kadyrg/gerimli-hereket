@@ -4,6 +4,16 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata() {
+  const t = await getTranslations('HomePage');
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default async function Layout({
   children,
@@ -16,6 +26,9 @@ export default async function Layout({
 
   return (
     <html lang={locale}>
+      <head>
+        <link rel="icon" href="/icon.png" />
+      </head>
       <body className="bg-gray-50">
         <NextIntlClientProvider>
           <Header />
