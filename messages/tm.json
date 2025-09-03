@@ -1,5 +1,58 @@
 {
+  "Header": {
+    "home": "Baş sahypa",
+    "about": "Biz barada",
+    "contact": "Habarlaşmak"
+  },
+  "Footer": {
+    "title": "Gerimli Hereket",
+    "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "company": "Kompaniýa",
+    "home": "Baş sahypa",
+    "about": "Biz barada",
+    "contact": "Biz bilen habarlaşyň",
+    "socialMedia": "Sosial media",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "contacts": "Aragatnaşyk",
+    "phoneNumber1": "+99364837102",
+    "phoneNumber2": "+99364837102",
+    "email": "kadyr.gullyyew@gmail.com",
+    "copyright": "Awtorlyk hukugy © 2025 Gerimli Hereket. Ähli hukuklar goragly."
+  },
   "HomePage": {
-    "title": "Hello world!"
+    "heroTitle": "Logistika we ulagda ygtybarly hyzmatdaşyňyz",
+    "heroDescription": "Merkezi Aziýada ýük ugradyjy hyzmatlar üçin ygtybarly ýer bolan Gadamly Inžener Logistika we Ulag Kompaniýasyna hoş geldiňiz.",
+    "about": "Biz barada",
+    "contact": "Habarlaşmak",
+    "transportServices": "Transport hyzmatlary",
+    "airT": "Howa ulagy",
+    "seaT": "Deňiz ulagy",
+    "railwayT": "Demirýol ulagy",
+    "roadT": "Garaýol ulagy",
+    "yourLogisticsSolution": "Siziň logistika çözgüdiňiz",
+    "logisticsSolutionTitle": "Hyzmat maslahaty",
+    "logisticsSolutionDescription": "Lorem ipsum, dolor sit amet consectetur",
+    "logisticsServices": "Logistika hyzmatlary"
+  },
+  "AboutPage": {
+    "aboutTitle": "Gerimli Hereket",
+    "aboutDescription": "Biz öz abraýymyzy we siziň wagtyňyzy gadrlaýarys. Biziň kompaniýamyz siziň biznesiňiziň zerurlyklaryna laýyk çözgütler döredip biler.",
+    "aboutContentTitle": "Logistika we ulagda ygtybarly hyzmatdaşyňyz",
+    "aboutContentDescription": "Türkmen Logistika Assosiasiýasynyň (TLA) we Halkara Ýük Ugradyjylar Assosiasiýalarynyň Federasiýasynyň (FIATA) buýsançly agzasy hökmünde, Gadamly Inžener özüniň global ulgamyny giňeldýär we abraýly halkara ýük ugradyjylar bilen hyzmatdaşlygy ösdürýär. Biz ýokary mümkinçilikleri we siziň üçin has gowy hyzmat etmegi üpjün edýän güýçli hyzmatdaşlyklary gurmaga ynanyarys.",
+    "ourLocation": "Biziň ýerleşýän ýerimiz"
+  },
+  "ContactPage": {
+    "contact": "Biz bilen habarlaşyň",
+    "name": "At",
+    "enterName": "Adyňyzy giriziň",
+    "phoneNumber": "Telefon belgisi",
+    "enterPhoneNumber": "Telefon belgisini giriziň",
+    "email": "E-poçta",
+    "enterEmail": "E-poçtany giriziň",
+    "message": "Habar",
+    "enterMessage": "Habary giriziň",
+    "send": "Iber"
   }
 }

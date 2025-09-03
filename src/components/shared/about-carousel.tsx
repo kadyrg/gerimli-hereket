@@ -16,7 +16,7 @@ export function AboutCarousel() {
   )
 
   return (
-    <Carousel opts={{align: "start", loop: true}} plugins={[plugin.current]} className="rounded-xl max-w-5xl mx-auto overflow-hidden border-1">
+    <Carousel opts={{align: "start", loop: true}} plugins={[plugin.current]} className="rounded-xl max-w-5xl mx-auto overflow-hidden">
       <CarouselContent>
         {data.map((item, index) => (
           <CarouselItem key={index}>

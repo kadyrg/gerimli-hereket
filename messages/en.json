@@ -1,5 +1,58 @@
 {
+  "Header": {
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact us"
+  },
+  "Footer": {
+    "title": "Gerimli Hereket",
+    "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "company": "Company",
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact us",
+    "socialMedia": "Social media",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "contacts": "Contacts",
+    "phoneNumber1": "+99364837102",
+    "phoneNumber2": "+99364837102",
+    "email": "kadyr.gullyyew@gmail.com",
+    "copyright": "Copyright © 2025 Gerimli Hereket. All rights reserved."
+  },
   "HomePage": {
-    "title": "Hello world!"
+    "heroTitle": "Your reliable partner in logistics and transportation",
+    "heroDescription": "Welcome to Gadamly Inžener Logistics and Transportation Company, your comprehensive destination in Central Asia for seamless freight forwarding services.",
+    "about": "About us",
+    "contact": "Contact us",
+    "transportServices": "Transport Services",
+    "airT": "Air transportation",
+    "seaT": "Sea transportation",
+    "railwayT": "Railway transportation",
+    "roadT": "Road transportation",
+    "yourLogisticsSolution": "Your Logistics Solution",
+    "logisticsSolutionTitle": "Contact us today!",
+    "logisticsSolutionDescription": "Ready to streamline your logistics with Gerimli Hereket?",
+    "logisticsServices": "Logistics Services"
+  },
+  "AboutPage": {
+    "aboutTitle": "Gerimli Hereket",
+    "aboutDescription": "We value our reputation and value your time. Our company can create solutions that meet the needs of your business",
+    "aboutContentTitle": "Your reliable partner in logistics and transportation",
+    "aboutContentDescription": "As a proud member of the Turkmen Logistics Association (TLA) and the International Federation of Freight Forwarders Associations FIATA, Gadamly Inžener expands its global network, fostering collaboration with reputable international freight forwarders. We are committed to building strong partnerships that enhance our capabilities and serve you better",
+    "ourLocation": "Our location"
+  },
+  "ContactPage": {
+    "contact": "Contact us",
+    "name": "Name",
+    "enterName": "Enter name",
+    "phoneNumber": "Phone number",
+    "enterPhoneNumber": "Enter phone number",
+    "email": "Email",
+    "enterEmail": "Enter email",
+    "message": "Message",
+    "enterMessage": "Enter message",
+    "send": "Send"
   }
 }

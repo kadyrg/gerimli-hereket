@@ -16,7 +16,7 @@ export default async function Layout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="bg-gray-50">
         <NextIntlClientProvider>
           <Header />
           {children}

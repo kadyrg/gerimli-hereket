@@ -1,5 +1,58 @@
 {
+  "Header": {
+    "home": "Главная",
+    "about": "О нас",
+    "contact": "Связаться с нами"
+  },
+  "Footer": {
+    "title": "Геримли Херекет",
+    "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "company": "Компания",
+    "home": "Главная",
+    "about": "О нас",
+    "contact": "Связаться с нами",
+    "socialMedia": "Социальные сети",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "contacts": "Контакты",
+    "phoneNumber1": "+99364837102",
+    "phoneNumber2": "+99364837102",
+    "email": "kadyr.gullyyew@gmail.com",
+    "copyright": "Авторские права © 2025 Геримли Херекет. Все права защищены."
+  },
   "HomePage": {
-    "title": "Hello world!"
+    "heroTitle": "Ваш надежный партнер в логистике и транспортировке",
+    "heroDescription": "Добро пожаловать в компанию Gadamly Inžener Logistics and Transportation, ваш универсальный центр в Центральной Азии для бесперебойных услуг по экспедированию грузов.",
+    "about": "О нас",
+    "contact": "Связаться с нами",
+    "transportServices": "Транспортные услуги",
+    "airT": "Воздушная транспортировка",
+    "seaT": "Морская транспортировка",
+    "railwayT": "Железнодорожная транспортировка",
+    "roadT": "Автомобильная транспортировка",
+    "yourLogisticsSolution": "Ваше логистическое решение",
+    "logisticsSolutionTitle": "Консультации по услугам",
+    "logisticsSolutionDescription": "Lorem ipsum, dolor sit amet consectetur",
+    "logisticsServices": "Логистические услуги"
+  },
+  "AboutPage": {
+    "aboutTitle": "Геримли Херекет",
+    "aboutDescription": "Мы ценим нашу репутацию и ваше время. Наша компания может создавать решения, отвечающие потребностям вашего бизнеса.",
+    "aboutContentTitle": "Ваш надежный партнер в логистике и транспортировке",
+    "aboutContentDescription": "Как гордый член Туркменской логистической ассоциации (TLA) и Международной федерации ассоциаций экспедиторов (FIATA), Gadamly Inžener расширяет свою глобальную сеть, способствуя сотрудничеству с уважаемыми международными экспедиторами. Мы стремимся к созданию прочных партнерств, которые усиливают наши возможности и позволяют нам лучше обслуживать вас.",
+    "ourLocation": "Наше местоположение"
+  },
+  "ContactPage": {
+    "contact": "Связаться с нами",
+    "name": "Имя",
+    "enterName": "Введите имя",
+    "phoneNumber": "Номер телефона",
+    "enterPhoneNumber": "Введите номер телефона",
+    "email": "Электронная почта",
+    "enterEmail": "Введите электронную почту",
+    "message": "Сообщение",
+    "enterMessage": "Введите сообщение",
+    "send": "Отправить"
   }
 }

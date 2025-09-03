@@ -5,7 +5,7 @@ import { OurLocation } from "@/components/shared/our-locarion";
 
 export default async function AboutPage() {
   return (
-    <div className="bg-zinc-50">
+    <>
       <AboutHero />
       <div className='px-4'>
         <AboutCarousel />
@@ -14,6 +14,6 @@ export default async function AboutPage() {
       <div className='px-4'>
         <OurLocation />
       </div>
-    </div>
+    </>
   );
 }

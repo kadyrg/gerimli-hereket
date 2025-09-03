@@ -1,15 +1,15 @@
 import { Hero } from "@/components/shared/hero";
-import { Partner } from "@/components/shared/partner";
-import { Services } from "@/components/shared/services";
-import { Shipping } from "@/components/shared/shipping";
+import { YourLogisticsSolution } from "@/components/shared/your-logistics-solution";
+import { LogisticsServices } from "@/components/shared/logistics-services";
+import { TransportServices } from "@/components/shared/transport-services";
 
 export default async function HomePage() {
   return (
     <>
       <Hero />
-      <Shipping />
-      <Partner />
-      <Services />
+      <TransportServices />
+      <YourLogisticsSolution />
+      <LogisticsServices />
     </>
   );
 }

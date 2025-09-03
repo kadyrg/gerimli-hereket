@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "../ui/textarea"
+import { useTranslations } from "next-intl"
 
 const contactFormSchema = z.object({
   name: z.string().min(1, {
@@ -27,6 +28,8 @@ const contactFormSchema = z.object({
 })
 
 export function ContactForm() {
+  const t = useTranslations("ContactPage")
+
   const form = useForm<z.infer<typeof contactFormSchema>>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -49,9 +52,9 @@ export function ContactForm() {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel>{t("name")}</FormLabel>
               <FormControl>
-                <Input placeholder="Enter name" {...field} />
+                <Input placeholder={t("enterName")} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -63,9 +66,9 @@ export function ContactForm() {
             name="phone"
             render={({ field }) => (
               <FormItem className="w-full">
-                <FormLabel>Phone number</FormLabel>
+                <FormLabel>{t("phoneNumber")}</FormLabel>
                 <FormControl>
-                  <Input placeholder="Enter phone number" {...field} />
+                  <Input placeholder={t("enterPhoneNumber")} {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -76,9 +79,9 @@ export function ContactForm() {
             name="email"
             render={({ field }) => (
               <FormItem className="w-full">
-                <FormLabel>Email</FormLabel>
+                <FormLabel>{t("email")}</FormLabel>
                 <FormControl>
-                  <Input placeholder="Enter email" {...field} />
+                  <Input placeholder={t("enterEmail")} {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -90,15 +93,15 @@ export function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel>{t("message")}</FormLabel>
               <FormControl>
-                <Textarea placeholder="Enter message" {...field} />
+                <Textarea placeholder={t("enterMessage")} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full rounded-full">Submit</Button>
+        <Button type="submit" className="w-full rounded-full">{t("send")}</Button>
       </form>
     </Form>
   )
